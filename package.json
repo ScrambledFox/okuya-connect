@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@types/socket.io": "^3.0.2",
+    "express": "^4.18.2",
+    "node": "^21.2.0",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
+  },
+  "name": "okuya-connect",
+  "version": "0.1.0",
+  "description": "Connection backend for okuya",
+  "main": "server.ts",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joris Lodewijks",
+  "license": "MIT"
+}
