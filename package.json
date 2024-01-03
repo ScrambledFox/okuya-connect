@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@types/socket.io": "^3.0.2",
     "express": "^4.18.2",
@@ -10,9 +16,11 @@
   "version": "0.1.0",
   "description": "Connection backend for okuya",
   "main": "server.ts",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "@edgio/cli": "^7.7.1",
+    "@edgio/core": "^7.7.1",
+    "@edgio/express": "^7.5.0",
+    "@edgio/prefetch": "^7.7.1"
   },
   "author": "Joris Lodewijks",
   "license": "MIT"
